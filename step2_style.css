@@ -1,0 +1,178 @@
+/* Classes */
+
+
+
+#borderb{
+
+	margin-bottom:19px;
+
+	}
+
+
+
+body {
+	margin:0px; padding:0px;
+	background-color:#11090a;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+
+#outside_container {
+	background:url(images/background_slice.jpg) repeat-x #000000;
+	}
+#container {
+	background:url(images/background_main.jpg) no-repeat;
+	min-height:800px;
+	width:1000px;
+	position:relative;
+	}
+
+#container .border {
+   border-top:2px solid #674f5d;  }
+
+#container .hello {
+
+      margin-left: 65px; margin-top: 62px; margin-bottom: 57px;
+
+      width: 670px; height: 37px; text-indent: -999999px;
+
+      background:url(images/hello.png) no-repeat; }
+
+
+
+/*
+
+	Logo/Menu/Panel Positioning
+*/
+
+
+#logo {position:absolute; top:58px; left:51px;}
+
+#panel {position:absolute; top:190px; left:450px;}
+
+
+ul#menu {
+	margin:0px; padding:0px;
+	position:absolute; top:80px; left:75px;
+	}
+
+ul#right_menu {
+	margin:0px; padding:0px;
+	position:absolute; top:80px; right:10px;
+	border-bottom:2px solid #674f5d;  
+	}
+
+ul#menu li, ul#right_menu li{
+	margin:0px; padding:0px;
+	list-style:none;
+	margin-right:10px;
+	font-size:0px
+	text-transform:uppercase;
+	display:inline;
+}
+
+ul#menu li a, ul#right_menu li a{
+	text-decoration:none;
+	color:#bd92b2;
+}
+
+ul#menu li a:hover, ul#right_menu li a:hover {
+	text-decoration:none;
+	color:#ffffff;
+
+}
+
+/*
+
+Content
+
+*/
+
+#content {
+	padding-top:380px;
+	padding-left:75px;
+	width:948px;
+	color:#674f5d;
+	font-size:13px;
+	line-height:20px;
+
+}
+
+.home {margin-top:17px; padding-bottom:37px;}
+
+
+
+#content h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#dbaa70;
+	margin:0px 0px 20px 0px;
+	font-weight:normal;
+
+	}
+
+.element {
+
+	width:299px; float: left;
+	padding-top: 1px; padding-bottom:23px; margin-right:17px;
+	border-top:2px solid #674f5d; }
+}
+
+.element:hover {
+	border-top: 2px solid #09937c; color: #ffffff;
+
+}
+
+
+.element h3{
+
+	text-indent:-9999px;
+}
+
+.element .title img{
+
+	width:299px; height:28px;
+}
+
+.element img {
+	margin-top:-12px;
+}
+
+
+
+/*
+	Footer
+*/
+
+
+
+#footer {
+	border-top:1px solid #3f2324;
+	padding:30px 50px 80px 50px;
+	color:#674f5d;
+	font-size:9px;
+	line-height:14px;
+
+}
+
+#footer img{
+	float:left;
+	margin-right:10px;
+
+}
+
+#footer span{
+	display:block;
+	float:left;
+	width:250px;
+
+}
+
+#footer a {
+	color:#9e8292;
+	text-decoration:none;
+
+
+}
+#footer a:hover {color:#ffffff; }
+
+
+
